@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "JoSAA CSV Export",
+    "version": "1.0",
+    "description": "Export JoSAA Opening and Closing rank data table as CSV",
+    "content_scripts": [
+        {
+            "js": ["content-script.js"],
+            "matches": [
+                "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/*",
+                "https://josaa.admissions.nic.in/applicant/seatmatrix/*"
+            ]
+        }
+    ]
+}
