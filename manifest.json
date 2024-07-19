@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "JoSAA CSV Export",
+    "name": "JoSAA Export CSV",
     "version": "1.0",
     "description": "Export JoSAA Opening and Closing rank data table as CSV",
     "content_scripts": [
